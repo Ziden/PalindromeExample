@@ -1,0 +1,17 @@
+{
+    "extends": "strongloop",
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "modules": true
+        }
+    },
+    "env": {
+        "node": true,
+        "jest": true
+    },
+    "globals": {
+        "angular": "readonly"
+    }
+}
