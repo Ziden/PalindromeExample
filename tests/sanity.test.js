@@ -8,7 +8,7 @@ describe('Sanity Test', () => {
   test('Running Sanity', done => {
     var expressServer = new ExpressServer(3000);
     expressServer.startServer();
-    
+
     var nodeServer = expressServer.getNodeServer();
 
     const timeoutSeries = async.timeout(async.series, 5000);
